@@ -1,0 +1,82 @@
+.animal {
+    margin: 10px;
+    padding: 30px;
+    align-content: center;
+    width: 270px;
+    max-width: 400px;
+}
+
+#animal-wrap {
+    padding: 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#sort {
+    margin: 3%;
+}
+
+@media (min-width:768px) {
+    #animal-wrap {
+        max-width: 1000px;
+        justify-content: space-evenly;
+    }
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 50px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+img {
+    width: 309px;
+    height: 180px;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: -20px;
+    color: whitesmoke;
+}
+
+main {
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+    padding: 30px;
+}
+
+#button1,
+#button2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    flex-direction: column;
+    font-size: 20pt;
+    border-radius: 20%;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#button1:hover {
+    background-color: #0e0606;
+    color: blue;
+}
+
+#button2:hover {
+    background-color: #0e0606;
+    color: blue;
+}
